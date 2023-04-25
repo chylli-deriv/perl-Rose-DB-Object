@@ -10038,7 +10038,7 @@ SKIP: foreach my $db_type (qw(sqlite))
         save_col   => [ 1, 5 ],
         nums       => [ 1, 2, 3 ],
         fk1        => 2,
-        last_modified => { le => '6/6/2020' }, # XXX: breaks in 2020!
+        last_modified => { le => '6/6/3020' }, # XXX: breaks in 3020!
         date_created  => '3/30/2004 12:34:56 pm'
       ],
       clauses => [ "LOWER(status) LIKE 'ac%'" ],
